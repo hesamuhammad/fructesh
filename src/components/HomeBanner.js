@@ -3,11 +3,11 @@ import { Container, Row, Col, Form, FormGroup, Input, ButtonToggle  } from 'reac
 
 const Example = (props) => {
   return (
-      <div style={{backgroundColor: "#dadada", paddingTop: "100px", paddingBottom: "80px"}}>
+      <div style={{backgroundColor: "#dadada", paddingTop: "6%", paddingBottom: "10%"}} className="BannerTeam">
             <>
             <Container className="themed-container" fluid="lg">
                 <Row xs="3">
-                    <Col>
+                    <Col style={{paddingLeft: "15%"}}>
                         <h2 style={{color: "white"}}>
                             STAY
                         </h2>
@@ -22,7 +22,7 @@ const Example = (props) => {
                     <Col>
                         <Form>
                             <FormGroup>
-                                <Input style={{backgroundColor: "#dadada", borderStyle: "none"}} type="email" name="email" id="exampleEmail" placeholder="Enter your email address" />
+                                <Input style={{backgroundColor:"none", borderStyle: "none"}} type="email" name="email" id="exampleEmail" placeholder="Enter your email address" />
                             </FormGroup>
                         </Form>
                     </Col>

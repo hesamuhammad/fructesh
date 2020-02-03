@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Copyright from '../components/Copyright';
 import Footer from '../components/Footer'
+import BannerContacts from '../components/BannerContacts';
 export default class Gallery extends Component {
   render() {
       return (
           <div>
-              <h1>OI</h1>
+              <BannerContacts/>
               <Footer/>
               <Copyright/>
           </div>
