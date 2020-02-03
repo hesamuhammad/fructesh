@@ -22,12 +22,12 @@ const Example = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-      <NavbarBrand href="/">
+        <NavbarBrand href="/">
           <img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/11/retina-logo.png" alt='gambar logo' /></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-          <NavItem>
+            <NavItem>
               <NavLink href="//">Home</NavLink>
             </NavItem>
             <NavItem>
@@ -45,7 +45,7 @@ const Example = (props) => {
             <NavItem>
               <NavLink href="//">Contacts</NavLink>
             </NavItem>
-            
+
           </Nav>
           <NavbarText>Search</NavbarText>
           <NavbarText>Menu</NavbarText>
