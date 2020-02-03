@@ -5,6 +5,8 @@ import HomeJumbotron2 from '../components/HomeJumbotron2'
 import HomeBanner from '../components/HomeBanner'
 import TeamComp from '../components/TeamComp';
 import BannerFood from '../components/BannerFood'
+import FooterHome from '../components/FooterHome'
+import CopyrightHome from '../components/CopyrightHome'
 export default class Home extends Component {
     render() {
         return (
@@ -15,6 +17,8 @@ export default class Home extends Component {
                 <TeamComp></TeamComp>
                 <HomeBanner></HomeBanner>
                 <BannerFood></BannerFood>
+                <FooterHome></FooterHome>
+                <CopyrightHome></CopyrightHome>
             </div>
         )
     }
