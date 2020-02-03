@@ -41,7 +41,7 @@ const Example = (props) => {
             <NavItem>
               <NavLink href="/contacts" style={{fontWeight: "bold"}}>Contacts</NavLink>
             </NavItem>
-            
+
           </Nav>
           <NavbarText>Search</NavbarText>
           <NavbarText>Menu</NavbarText>
