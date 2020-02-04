@@ -1,9 +1,9 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { fetchData } from '../actions/Blog';
-import { Button, Row,Col } from 'antd';
+import { Row, Col, Button, Container } from 'reactstrap'
 
-class Posts extends Component {
+class Blog extends Component {
 
     componentDidMount = () => {
         this.props.fetchData();
@@ -11,28 +11,30 @@ class Posts extends Component {
 
     render() {
        const  {data} = this.props;
-       console.log(data);
+    //    console.log(data);
         return (
             <div>
                 <Row >
                     {data.map(item => {
                        return (
-                        <Fragment key={item.id}>
-                        <Col xs={24} md={{span:12,offset:6}} >
+                       <Container className="themed-container" fluid="lg" key={item.id} style={{width: "60%"}}>
+                        {/* <Fragment key={item.id}> */}
+                        <Col>
                             <h1 style={{textAlign:"center"}}>{item.title}</h1>
-                            <img style={{width:"100%"}} alt=''/>
-                            <p>{item.body}</p>
+                            <p>By {item.name} in News Posted {item.date}</p>
+                            <img style={{width:"100%"}} src={item.image}/>
+                            <p>{item.phrase}</p>
                             <Row>
-                            <Col xs={24} md={4}>
+                            <Col>
                                 <Button type="dashed" size='large'><i className='fa fa-comment'></i></Button>
                             </Col>
-                            <Col xs={24} md={{span:4,offset:16}}>
+                            <Col>
                                 <Button type="danger" size='large'>Read More</Button>
                             </Col>
                             </Row>
                         </Col>
-                        
-                        </Fragment>
+                        {/* </Fragment> */}
+                        </Container>
                         )
                     })}
                 </Row>
@@ -43,7 +45,7 @@ class Posts extends Component {
 
 const mapStateToProps = (state) => {
     return{
-        data: state.posts.data
+        data: state.blog.data
     }
 }
 
@@ -53,4 +55,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 }
 
-export default connect(mapStateToProps,mapDispatchToProps)(Posts)
+export default connect(mapStateToProps,mapDispatchToProps)(Blog)

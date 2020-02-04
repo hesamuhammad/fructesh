@@ -9,7 +9,6 @@ import About from './pages/About';
 import Team from './pages/Team';
 import Gallery from './pages/Gallery';
 import Blog from './pages/Blog';
-<<<<<<< HEAD
 import Contacts from './pages/Contacts'
 // import Copyright from './components/Copyright';
 
@@ -40,37 +39,6 @@ function App() {
           {/* <Footer/>
           <Copyright/> */}
       </Router>
-=======
-import Contact from './pages/Contact';
-import ContactMap from './components/ContactMap'
-
-function App() {
-  return (
-    <Router>
-      <Header />
-      <ContactMap />
-      <Switch>
-        <Route exact path="/home">
-          <Home />
-        </Route>
-        <Route exact path="/about">
-          <About />
-        </Route>
-        <Route exact path="/about">
-          <Team />
-        </Route>
-        <Route exact path="/gallery">
-          <Gallery />
-        </Route>
-        <Route exact path="/blog">
-          <Blog />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
-    </Router>
->>>>>>> 48058a7acf7fdf86fb6d23f9337818440715b0be
   );
 }
 

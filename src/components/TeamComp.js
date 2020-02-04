@@ -70,6 +70,10 @@ export default class TeamComp extends Component {
                 {/* {item1.id} */}
                 <br/>
                 {/* {item1.url} */}
+                <i class="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "30px"}}></i>
+                <i class="fa fa-twitter-square" aria-hidden="true" style={{fontSize: "30px"}}></i>
+                <i class="fa fa-instagram" aria-hidden="true" style={{fontSize: "30px"}}></i>
+                <i class="fa fa-behance-square" aria-hidden="true" style={{fontSize: "30px"}}></i>
               </CardSubtitle>
             </CardBody>
           </Card>
@@ -93,6 +97,10 @@ export default class TeamComp extends Component {
                 {/* {item2.id} */}
                 <br/>
                 {/* {item2.url} */}
+                <i class="fa fa-facebook-square" aria-hidden="true" style={{fontSize: "30px"}}></i>
+                <i class="fa fa-twitter-square" aria-hidden="true" style={{fontSize: "30px"}}></i>
+                <i class="fa fa-instagram" aria-hidden="true" style={{fontSize: "30px"}}></i>
+                <i class="fa fa-behance-square" aria-hidden="true" style={{fontSize: "30px"}}></i>
               </CardSubtitle>
             </CardBody>
           </Card>

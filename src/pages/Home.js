@@ -9,6 +9,7 @@ import FooterHome from '../components/FooterHome'
 import CopyrightHome from '../components/CopyrightHome'
 import AboutFarm from '../components/AboutFarm'
 import Testimonial from '../components/Testimonial';
+import BlogHome from '../components/BlogHome';
 export default class Home extends Component {
     render() {
         return (
@@ -20,6 +21,7 @@ export default class Home extends Component {
                 <TeamComp></TeamComp>
                 <HomeBanner></HomeBanner>
                 <Testimonial></Testimonial>
+                <BlogHome></BlogHome>
                 <BannerFood></BannerFood>
                 <FooterHome></FooterHome>
                 <CopyrightHome></CopyrightHome>

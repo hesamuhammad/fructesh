@@ -71,8 +71,8 @@ const Testimonial = (props) => {
     });
 
     return (
-        <div>
-            <div align="center" style={{ marginBottom: "50px", marginTop: "50px" }}>
+        <div style={{backgroundColor: "#eeeeee", paddingBottom: "50px", paddingTop: "50px"}}>
+            <div align="center" >
                 <h1 className="testimonial">TESTIMONIALS</h1>
             </div>
 
