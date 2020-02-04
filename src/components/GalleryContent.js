@@ -1,22 +1,17 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Container,
   Col,
   Row,
   Card,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  CardText,
-  Button,
   CardImg
 } from "reactstrap";
 import axios from "axios";
-import { Tab } from 'semantic-ui-react'
+// import { Tab } from 'semantic-ui-react'
 
 export default function GalleryContent() {
   const [allData, setAllData] = useState([]);
-  const [name, setName] = useState("");
+  // const [name, setName] = useState("");
   const urlAll = "https://api.unsplash.com/photos/?client_id=ba99555f25f272105c90ff4a7aeccfeae9af7e9a27d22fa02b3f03644d9b0ca6";
 
   useEffect(() => {
@@ -40,7 +35,7 @@ export default function GalleryContent() {
 
   return (
       
-    <Container style={{ marginTop: "20px", marginTop: "70px" }}>
+    <Container style={{ marginTop: "70px" }}>
       <Col md="12" xs="12">
       
         <Row>

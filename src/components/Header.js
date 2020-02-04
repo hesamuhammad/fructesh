@@ -43,8 +43,10 @@ const Example = (props) => {
             </NavItem>
 
           </Nav>
-          <NavbarText>Search</NavbarText>
-          <NavbarText>Menu</NavbarText>
+          <div style={{marginRight: "30%"}}>
+          <NavbarText><i className='fa fa-search' style={{fontSize: "30px"}}></i><span style={{marginRight: "5%"}}></span></NavbarText>
+          <NavbarText><i className='fa fa-reorder'style={{fontSize: "30px"}}></i></NavbarText>
+          </div>
         </Collapse>
       </Navbar>
     </div>

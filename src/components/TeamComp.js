@@ -7,9 +7,8 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  Button
 } from "reactstrap";
-import { FaBeer } from 'react-icons/fa';
+// import { FaBeer } from 'react-icons/fa';
 
 export default class TeamComp extends Component {
   constructor(props) {
@@ -37,7 +36,7 @@ export default class TeamComp extends Component {
   };
 
   render() {
-    const { data,item1,item2,item3 } = this.state;console.log(item1, item2, item3)    
+    const { item1,item2,item3 } = this.state;console.log(item1, item2, item3)    
 
     return (
       <div style={{marginTop: "25px"}}>
@@ -89,7 +88,7 @@ export default class TeamComp extends Component {
                 <br/>
               </CardTitle>
               <CardSubtitle style={{ textAlign: "center" }}>
-              {item1.name} is our leading fruit processing expert with over 20 years of experience.
+              Mas {item2.name} is our leading fruit processing expert with over 20 years of experience.
                 <br/>
                 {/* {item2.id} */}
                 <br/>

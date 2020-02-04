@@ -10,17 +10,17 @@ const Example = (props) => {
           <p className="lead" style={{textAlign: "center"}}>Take a look at organic fruits that we offer on a regular basis.</p>
             <Container style={{display: "flex", justifyContent: "center"}}>
                 <Row xs="3">
-                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-1.jpg"></img>
+                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-1.jpg" alt="satu"></img>
                     </Col>
-                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-2.jpg"></img>
+                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-2.jpg" alt="dua"></img>
                     </Col>
-                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-3.jpg"></img>
+                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-3.jpg" alt="tiga"></img>
                     </Col>
-                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-4.jpg"></img>
+                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-4.jpg" alt="empat"></img>
                     </Col>
-                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-5.jpg"></img>
+                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-5.jpg" alt="lima"></img>
                     </Col>
-                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-6.jpg"></img>
+                    <Col><img src="https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-6.jpg" alt="enam"></img>
                     </Col>
                 </Row>
             </Container>
