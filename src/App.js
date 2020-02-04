@@ -13,7 +13,6 @@ import Contacts from './pages/Contacts'
 // import Copyright from './components/Copyright';
 
 
-
 function App() {
   return (
       <Router>

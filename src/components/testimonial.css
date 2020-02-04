@@ -1,0 +1,33 @@
+.testimonial {
+  font-family: Poppins, sans-serif;
+  font-size: 55px;
+  font-weight: 550;
+  color: rgb(21, 21, 21);
+  letter-spacing: 4px;
+}
+
+.comment {
+  color: rgb(119, 119, 119);
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avatar {
+  width: 70px !important;
+  height: 70px !important;
+}
+.name {
+  color: rgb(21, 21, 21);
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.job {
+  color: rgb(215, 33, 30);
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+}
