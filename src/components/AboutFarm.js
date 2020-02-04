@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardText, Row, Col } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardText, Row, Col, Jumbotron, Container } from 'reactstrap';
 import classnames from 'classnames';
 //STYLE
 import './aboutfarm.css'
@@ -28,7 +28,7 @@ class MyGallery extends React.Component {
         return (
             <div style={{ width: "500px", height: "400px" }}>
 
-                <ImageGallery items={images} />;
+                <ImageGallery items={images} />
         </div>
         )
     }
@@ -111,18 +111,20 @@ const Example = (props) => {
 export default function AboutFarm() {
     return (
         <div>
-            <div className="row">
-                <div class="col-sm">
-                    <h1 className="farmer">
-                        NEW GENERATION
-                        OF FARMERS
-                    </h1>
-                    <Example />
-                </div>
-                <div class="col-sm">
-                    <MyGallery />
-                </div>
-            </div>
+            <Container>
+                <Row>
+                    <Col xs="6">
+                        <h1 className="farmer">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>NEW GENERATION
+                            OF FARMERS
+                        </h1>
+                        <Example />
+                    </Col>
+                    <Col xs="6">
+                        <MyGallery />
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

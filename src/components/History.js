@@ -4,7 +4,7 @@ import './history.css'
 export default function Jumbotron() {
     return (
         <div>
-            <div className="jumbotron jumbotron-fluid">
+            <div className="jumbotronHistory jumbotron-fluid">
                 <div className="container" align="center">
                     <h1 className="title">OUR HISTORY</h1>
                     <div class="container">
