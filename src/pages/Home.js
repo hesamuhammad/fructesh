@@ -9,7 +9,6 @@ import FooterHome from '../components/FooterHome'
 import CopyrightHome from '../components/CopyrightHome'
 import AboutFarm from '../components/AboutFarm'
 import Testimonial from '../components/Testimonial';
-import Map from '../components/Map'
 export default class Home extends Component {
     render() {
         return (
@@ -22,7 +21,6 @@ export default class Home extends Component {
                 <HomeBanner></HomeBanner>
                 <Testimonial></Testimonial>
                 <BannerFood></BannerFood>
-                <Map/>
                 <FooterHome></FooterHome>
                 <CopyrightHome></CopyrightHome>
             </div>

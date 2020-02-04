@@ -3,7 +3,7 @@ import { Jumbotron, Container, Row, Col, Card, CardTitle, CardText, CardGroup, C
 
 const Example = (props) => {
   return (
-    <div >
+    <div style={{height: "550"}}>
         <Jumbotron style={{marginBottom: "0", marginTop: "0"}}>
             <Container >
                 <Row>
