@@ -37,7 +37,7 @@ const Testimonial = (props) => {
         getData()
     }, [])
     const getData = () => {
-        axios.get('http://5e3139d0576f9d0014d644ed.mockapi.io/projectreact')
+        axios.get('https://5e3139d0576f9d0014d644ed.mockapi.io/projectreact')
             .then(res => {
 
                 console.log("this is response", res)
@@ -71,7 +71,7 @@ const Testimonial = (props) => {
     });
 
     return (
-        <div style={{backgroundColor: "#eeeeee", paddingBottom: "50px", paddingTop: "50px"}}>
+        <div style={{ backgroundColor: "#eeeeee", paddingBottom: "50px", paddingTop: "50px" }}>
             <div align="center" >
                 <h1 className="testimonial">TESTIMONIALS</h1>
             </div>
