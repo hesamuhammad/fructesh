@@ -6,24 +6,31 @@ import './aboutfarm.css'
 import ImageGallery from 'react-image-gallery';
 
 const images = [
+
     {
-        original: 'https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/grid-gallery-2-370x315.jpg',
-        thumbnail: 'https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/grid-gallery-2-370x315.jpg',
+        original: 'https://images.unsplash.com/photo-1519544442-93857b48665e?ixlib=rb-1.2.1&auto=format&fit=crop&w=756&q=80',
+        thumbnail: 'https://images.unsplash.com/photo-1519544442-93857b48665e?ixlib=rb-1.2.1&auto=format&fit=crop&w=756&q=80',
     },
     {
-        original: 'https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/offers-3.jpg',
-        thumbnail: 'https://picsum.photos/id/1015/250/150/',
+        original: 'https://images.unsplash.com/photo-1578658760624-02f2558b5369?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
+        thumbnail: 'https://images.unsplash.com/photo-1578658760624-02f2558b5369?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
     },
+
     {
-        original: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mangoes-composition-royalty-free-image-463651383-1564092088.jpg?crop=0.668xw:1.00xh;0.322xw,0&resize=768:*',
-        thumbnail: 'https://picsum.photos/id/1019/250/150/',
+        original: 'https://images.unsplash.com/photo-1467825683276-01f37b99c328?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80:*',
+        thumbnail: 'https://images.unsplash.com/photo-1467825683276-01f37b99c328?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80',
     },
 ];
 
 class MyGallery extends React.Component {
 
     render() {
-        return <ImageGallery items={images} style={{ height: "100px" }} />;
+        return (
+            <div style={{ width: "500px", height: "400px" }}>
+
+                <ImageGallery items={images} />;
+        </div>
+        )
     }
 }
 
@@ -104,15 +111,15 @@ const Example = (props) => {
 export default function AboutFarm() {
     return (
         <div>
-            <div className="row banner-farmer">
-                <div class="col">
+            <div className="row">
+                <div class="col-sm">
                     <h1 className="farmer">
                         NEW GENERATION
                         OF FARMERS
                     </h1>
                     <Example />
                 </div>
-                <div class="col">
+                <div class="col-sm">
                     <MyGallery />
                 </div>
             </div>

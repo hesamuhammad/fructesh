@@ -7,10 +7,16 @@
   font-weight: 600;
 
   color: rgb(21, 21, 21);
-  position: relative;
-  text-align: left;
-  margin-bottom: 20px;
+
+  /* text-align: left; */
 
   letter-spacing: 2.6px;
   line-height: 50.4px;
+}
+
+.row {
+  margin-right: 10px !important;
+  margin-left: 30px !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }

@@ -10,7 +10,6 @@ import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 
 
-
 function App() {
   return (
     <Router>
