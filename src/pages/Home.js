@@ -7,15 +7,19 @@ import TeamComp from '../components/TeamComp';
 import BannerFood from '../components/BannerFood'
 import FooterHome from '../components/FooterHome'
 import CopyrightHome from '../components/CopyrightHome'
+import AboutFarm from '../components/AboutFarm'
+import Testimonial from '../components/Testimonial';
 export default class Home extends Component {
     render() {
         return (
             <div>
                 <HomeCarousel1></HomeCarousel1>
                 <HomeJumbotron1></HomeJumbotron1>
+                <AboutFarm></AboutFarm>
                 <HomeJumbotron2></HomeJumbotron2>
                 <TeamComp></TeamComp>
                 <HomeBanner></HomeBanner>
+                <Testimonial></Testimonial>
                 <BannerFood></BannerFood>
                 <FooterHome></FooterHome>
                 <CopyrightHome></CopyrightHome>
