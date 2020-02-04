@@ -8,13 +8,11 @@ import Team from './pages/Team';
 import Gallery from './pages/Gallery';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
-import ContactMap from './components/ContactMap'
 
 function App() {
   return (
     <Router>
       <Header />
-      <ContactMap />
       <Switch>
         <Route exact path="/home">
           <Home />
