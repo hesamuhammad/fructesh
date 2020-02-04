@@ -1,4 +1,4 @@
-.jumbotron {
+.jumbotronHistory {
   background-image: url("https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/bg-gallery.jpg);");
   background-size: cover;
   height: 450px;
@@ -24,7 +24,6 @@
   padding: 30px 20px 30px 20px;
 }
 .col-title {
-  /* color: #151515; */
   color: rgb(21, 21, 21);
   font-size: 24px;
   font-weight: 600;
