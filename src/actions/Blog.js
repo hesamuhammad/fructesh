@@ -10,7 +10,7 @@ export const getData = (data) => {
 }
 
 export const fetchData = () => dispatch => {
-    return axios.get('http://5e3134bf576f9d0014d644c4.mockapi.io/user').then(res => {
+    return axios.get('https://5e3134bf576f9d0014d644c4.mockapi.io/user').then(res => {
         dispatch(getData(res.data))
     })
 }
