@@ -1,0 +1,27 @@
+.jumbotron {
+  background-image: url("https://ld-wp73.template-help.com/wordpress/prod_21699/v1/wp-content/uploads/2018/12/bg-gallery.jpg);");
+  background-size: cover;
+  height: 350px;
+  color: rgb(59, 61, 66);
+  padding: 60px 15px;
+}
+
+.container {
+  padding: 30px 15px;
+}
+
+.col-title {
+  font-family: "Poppins", Sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+.tagline {
+  color: #ffffff;
+  font-family: "Poppins", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: 0.9px;
+}
