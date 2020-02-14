@@ -14,7 +14,6 @@ import Contacts from './pages/Contacts'
 
 function App() {
   return (
-<<<<<<< HEAD
       <Router>
           <Header/>
           <Switch>
@@ -38,31 +37,6 @@ function App() {
           </Route>
           </Switch>
           {/* <Footer/>
-=======
-    <Router>
-      <Header />
-      <Switch>
-        <Route exact path="/home">
-          <Home />
-        </Route>
-        <Route exact path="/about">
-          <About />
-        </Route>
-        <Route exact path="/team">
-          <Team />
-        </Route>
-        <Route exact path="/gallery">
-          <Gallery />
-        </Route>
-        <Route exact path="/blog">
-          <Blog />
-        </Route>
-        <Route exact path="/contacts">
-          <Contacts />
-        </Route>
-      </Switch>
-      {/* <Footer/>
->>>>>>> 0acd76706348bde5a3a86903d00a319c616835c2
           <Copyright/> */}
     </Router>
   );
