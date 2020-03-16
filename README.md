@@ -1,2 +1,2 @@
-### https://fructesh.netlify.com/home
+### https://fructesh.netlify.com/
 
